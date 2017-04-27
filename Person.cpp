@@ -5,24 +5,6 @@
 #include <cstdlib>
 using namespace std;
 
-//! Initializes health to 0 and hunger to 100, and sets the private member variable m_name to the name parameter passed in.
-/**
-    Initialize hunger to 0 and hunger to 100. Set the person's name to whatever the parameter passed in is.
-
-    @param name <const string&>     The value to assign to the m_name variable
-    @return <void>
-*/
-void Person::Setup( const string& name )
-{
-	m_name = name;
-	m_hunger = 0;
-	m_health = 100;
-}#include "Person.hpp"
-
-#include <iostream>
-#include <iomanip>
-#include <cstdlib>
-using namespace std;
 
 //! Initializes health to 0 and hunger to 100, and sets the private member variable m_name to the name parameter passed in.
 /**
